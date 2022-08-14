@@ -9,7 +9,7 @@ const argv = require("yargs")
                     alias:"hasta",
                     type:"number",
                     default: 10,
-                    describe:"Define el número de filas que tendrá la tabla",
+                    describe:"Define el número de filas",
                 })
                 .option( "l",{
                     alias:"listar",
